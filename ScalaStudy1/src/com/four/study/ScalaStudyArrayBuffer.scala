@@ -28,6 +28,7 @@ object ScalaStudyArrayBuffer {
     intArray.insert(0,7,8,9)
     intArray.remove(0,3)//从0开始，删除四个元素
     intArray.toArray
+    println("数组的遍历")
     for(i<-0 to intArray.length-1)
       println(intArray(i))
   }
